@@ -2,7 +2,7 @@ import streamlit as st
 from pickle import load
 import numpy as np
 
-with open("../models/Random_forest_model.sav", 'rb') as f:
+with open("./models/Random_forest_model.sav", 'rb') as f:
     model = load(f)
 
 
